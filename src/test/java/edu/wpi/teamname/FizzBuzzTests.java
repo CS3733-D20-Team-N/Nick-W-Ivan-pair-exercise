@@ -28,4 +28,10 @@ public class FizzBuzzTests {
     FizzBuzz fizzBuzz = new FizzBuzz();
     Assertions.assertEquals("fizzbuzz", fizzBuzz.answer(15));
   }
+
+  @Test
+  public void isPrimeNum() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    Assertions.assertEquals("whiz", fizzBuzz.answer(13));
+  }
 }
